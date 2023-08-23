@@ -1,0 +1,75 @@
+@import "./bootstrap-overrides";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.btn-rules {
+  width: 4rem;
+}
+
+.logo-size {
+  width: 8rem;
+}
+
+.avatar-size {
+  width: 2rem;
+}
+
+.btn-size {
+  width: 8rem;
+}
+
+.btn-size-2 {
+  width: 12rem;
+}
+
+.footer-size {
+  font-size: 0.75rem;
+}
+
+.pe-6 {
+  padding-right: 5rem;
+}
+
+.pt-6 {
+  padding-top: 5rem;
+}
+
+.fs-big {
+  font-size: 5rem;
+}
+
+.img-size {
+  height: 20rem;
+}
+
+.input-size {
+  width: 30px;
+  height: 30px;
+}
+
+.bg-s-btn {
+  background-color: #333333;
+}
+
+@include media-breakpoint-up(sm) {
+  .card-size-sm {
+    min-height: 2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .card-size-md {
+  }
+}
+@include media-breakpoint-up(lg) {
+  .card-size-lg {
+  }
+}
+@include media-breakpoint-up(xl) {
+  .card-size-xl {
+  }
+}
+@include media-breakpoint-up(xxl) {
+  .card-size-xxl {
+    min-width: 18.5rem;
+  }
+}
